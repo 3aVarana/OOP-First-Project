@@ -1,15 +1,8 @@
 #include "App.h"
-#include <iostream>
-
-App::App()
-{
-}
-
-App::~App()
-{
-}
+#include "University.h"
 
 void App::run()
 {
-	std::cout << "Application running\n";
+    University university;
+    university.start();
 }
